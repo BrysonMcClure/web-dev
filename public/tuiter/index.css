@@ -27,6 +27,15 @@
     padding: 16px;
 }
 
+#selector-3 {
+    color: red;
+}
+
+#selector-4 {
+    color: red;
+}
+
+
 .wd-dimension-long-bar {
     width: 500px;
     height: 25px;
@@ -42,6 +51,10 @@
     border-color: rgb(29,161,242);
 }
 
+.wd-tweet-outline {
+    border: 2px solid rgb(47, 51, 54);
+}
+
 .wd-tweet-topic-text {
     font-size: 13px;
     color: rgb(110, 118, 125);
@@ -53,10 +66,137 @@
     color: white;
 }
 
+.wd-saved-tweet-text {
+    font-size: 15px;
+    color: white;
+}
+
+.wd-saved-tweet-title-text {
+    font-size: 15px;
+    color: white;
+    padding-top: 12px;
+}
+
+.wd-saved-tweet-desc-text {
+    font-size: 15px;
+    color: lightgray;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.wd-header-font-padding {
+    padding-bottom: 12px;
+    padding-left: 16px;
+    border-bottom: 1px solid lightgray;
+}
+
+.wd-max-width {
+    max-width: 506px;
+}
+
+.wd-full-image {
+    width: 504px;
+    height: 264px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.wd-text-curved-bottom {
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.wd-text-curved-top {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.wd-16-12-padding {
+    padding-top: 12px;
+    padding-left: 16px;
+}
+
+.wd-avatar-image {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+.wd-page-title-text {
+    font-size: 20px;
+    font-width: bold;
+    color: white;
+    padding-top: 12px;
+    padding-left: 16px;
+}
+
+.wd-icon-formatting {
+    font-size: 15px;
+    color: lightgray;
+    padding-right: 12px;
+}
+
+.wd-icon-text-formatting {
+    font-size: 15px;
+    color: lightgray;
+}
+
 .wd-thumbnail-image {
     width: 100px;
     height: 100px;
     border-radius: 25px;
+    position: relative;
     right: 16px;
+    padding-right: 12px;
 }
+
+.grid-row {
+    clear: both;
+}
+
+.grid-col-half-page {
+    width: 50%;
+    float: left;
+}
+
+.grid-col-third-page {
+    width: 33%;
+    float: left;
+}
+.grid-col-two-thirds-page {
+    width: 67%;
+    float: left;
+}
+.wd-grid-col-left-sidebar {
+    width: 10%;
+    height: 100%;
+    float: left;
+}
+.grid-col-main-content {
+    width: 60%;
+    float: left;
+}
+
+.wd-grid-col-main-left {
+    width: 90%;
+    float: left;
+}
+.grid-col-right-sidebar {
+    float: right;
+}
+
+.wd-grid-col-right-sidebar {
+    float: left;
+}
+
+.wd-tweetPadding {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.wd-icon-quarterScreen {
+    width: 25%;
+    float: left;
+}
+
 
