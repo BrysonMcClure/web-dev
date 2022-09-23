@@ -15,7 +15,7 @@ const PostSummaryItem = (
     topicText = `<p class="card-text"> {post.topic} </p>`;
   }*/
   return(
-    <div className="card" style= {{"width" : "100%"}}>
+    <div className="card" style= {{"width" : "100%"}} key={post.title}>
          <div className="row no-gutters">
              <div className="col-9">
                  <div className="card-body"> 
