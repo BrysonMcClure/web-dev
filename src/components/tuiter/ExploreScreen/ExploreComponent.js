@@ -12,7 +12,7 @@ const ExploreComponent = () => {
                         
                         <span className="input-group-prepend">
                             <button className="btn rounded-pill-left bg-white pr-n5" type="button">
-                                <i className="fas fa-search" style={{"color": "#5c636a"}}></i>
+                                <i className="fas fa-search" style={{"color": "/5c636a"}}></i>
                             </button>
                         </span>
                         <input className = "form-control rounded-pill-right ml-n5 " id="search-bar" type="text" placeholder="Search Twitter"/>
@@ -20,27 +20,27 @@ const ExploreComponent = () => {
                           
                   </div>
                   <div className="col-1">
-                      <a href="#"><i className ="fas fa-cog fa-2x"></i></a>
+                      <a href="/"><i className ="fas fa-cog fa-2x"></i></a>
                   </div>    
                        
            </div>
       {/*<!-- Navigation Tabs -->*/}
            <ul className="nav mb-2 nav-tabs">
                 <li className="nav-item">
-                    <a className="nav-link active" href="#">For you</a>
+                    <a className="nav-link active" href="/">For you</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="#">Trending</a>
+                    <a className="nav-link" href="/">Trending</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="#">News</a>
+                    <a className="nav-link" href="/">News</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="#">Sports</a>
+                    <a className="nav-link" href="/">Sports</a>
                 </li>
       {/*<!-- This needs to disappear in the smallest configuration -->*/}
                 <li className="nav-item">
-                    <a className="nav-link d-sm-none d-md-block" href="#">Entertainment</a>
+                    <a className="nav-link d-sm-none d-md-block" href="/">Entertainment</a>
                 </li>         
            </ul>
       {/*<!-- image with overlaid text -->*/}

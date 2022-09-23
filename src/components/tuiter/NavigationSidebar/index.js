@@ -7,7 +7,7 @@ const NavigationSidebar = ({active = 'explore'}) => {
                 <a className="list-group-item" href="/" key="tuiter">
                     <i className="fab fa-twitter"></i>
                 </a>
-                <a href="#" className={`list-group-item list-group-item-action ${active === 'home' ? 'active' : ''}`} key="home">
+                <a href="/" className={`list-group-item list-group-item-action ${active === 'home' ? 'active' : ''}`} key="home">
                     <div className = "row">
                         <div className = "col-2">
                             <i className="fas fa-home" ></i>
@@ -17,7 +17,7 @@ const NavigationSidebar = ({active = 'explore'}) => {
                         </div>
                     </div>
                 </a>
-                <a href="#" className={`list-group-item list-group-item-action ${active === 'explore' ? 'active' : ''}`} aria-current="true" key="explore">
+                <a href="/" className={`list-group-item list-group-item-action ${active === 'explore' ? 'active' : ''}`} aria-current="true" key="explore">
                     <div className = "row">
                         <div className = "col-2">
                             <i className="fas fa-hashtag" ></i>
@@ -27,7 +27,7 @@ const NavigationSidebar = ({active = 'explore'}) => {
                         </div>
                     </div>
                 </a>
-                <a href="#" className={`list-group-item list-group-item-action ${active === 'notifications' ? 'active' : ''}`} key="notifications">
+                <a href="/" className={`list-group-item list-group-item-action ${active === 'notifications' ? 'active' : ''}`} key="notifications">
                     <div className = "row">
                         <div className = "col-2">
                             <i className="fas fa-bell"></i>
@@ -37,7 +37,7 @@ const NavigationSidebar = ({active = 'explore'}) => {
                         </div>
                     </div>
                 </a>
-                <a href="#" className={`list-group-item list-group-item-action ${active === 'messages' ? 'active' : ''}`} key="messages">
+                <a href="/" className={`list-group-item list-group-item-action ${active === 'messages' ? 'active' : ''}`} key="messages">
                     <div className = "row">
                         <div className = "col-2">
                             <i className="fas fa-envelope"></i>
@@ -47,7 +47,7 @@ const NavigationSidebar = ({active = 'explore'}) => {
                         </div>
                     </div>
                 </a>
-                <a href="#" className={`list-group-item list-group-item-action ${active === 'bookmarks' ? 'active' : ''}`} key="bookmarks">
+                <a href="/" className={`list-group-item list-group-item-action ${active === 'bookmarks' ? 'active' : ''}`} key="bookmarks">
                     <div className = "row">
                         <div className = "col-2">
                             <i className="fas fa-bookmark"></i>
@@ -57,7 +57,7 @@ const NavigationSidebar = ({active = 'explore'}) => {
                         </div>
                     </div>
                 </a>
-                <a href="#" className={`list-group-item list-group-item-action ${active === 'lists' ? 'active' : ''}`} key="lists">
+                <a href="/" className={`list-group-item list-group-item-action ${active === 'lists' ? 'active' : ''}`} key="lists">
                     <div className = "row">
                         <div className = "col-2">
                             <i className="fas fa-list"></i>
@@ -67,7 +67,7 @@ const NavigationSidebar = ({active = 'explore'}) => {
                         </div>
                     </div>
                 </a>
-                <a href="#" className={`list-group-item list-group-item-action ${active === 'profile' ? 'active' : ''}`} key="profile">
+                <a href="/" className={`list-group-item list-group-item-action ${active === 'profile' ? 'active' : ''}`} key="profile">
                     <div className = "row">
                         <div className = "col-2">
                             <i className="fas fa-user"></i>
@@ -77,7 +77,7 @@ const NavigationSidebar = ({active = 'explore'}) => {
                         </div>
                     </div>
                 </a>
-                <a href="#" className={`list-group-item list-group-item-action ${active === 'more' ? 'active' : ''}`} key="more">
+                <a href="/" className={`list-group-item list-group-item-action ${active === 'more' ? 'active' : ''}`} key="more">
                     <div className = "row">
                         <div className = "col-2">
                             <span className="fa-stack fa-xs">
@@ -93,7 +93,7 @@ const NavigationSidebar = ({active = 'explore'}) => {
             </div>
             {/*Tweet Button at Bottom*/}
             <div className="d-grid mt-2" key="tweet">
-                <a href="#"
+                <a href="/"
                    className="btn btn-primary btn-block rounded-pill">
                     Tweet</a>
             </div>
