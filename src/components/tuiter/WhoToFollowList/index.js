@@ -5,12 +5,12 @@ import who from "./who"
 const WhoToFollowList = () => {
   return( 
          <ul className = "list-group">
-            <li className="list-group-item">
+            <li className="list-group-item" key="title">
                     Who to Follow</li>
             {
               who.map(whoItem => {
                 return(
-                  <WhoToFollowListItem who={whoItem}/>);
+                  <WhoToFollowListItem who={whoItem} key={whoItem.handle}/>);
               })
             }
          </ul>

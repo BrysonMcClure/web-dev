@@ -6,7 +6,7 @@ const PostSummaryList = () => {
     <div>
         {
           post.map(postItem => {
-            return(<PostSummaryItem post={postItem}/>);
+            return(<PostSummaryItem post={postItem} key={postItem.title}/>);
           })
         }
     </div>

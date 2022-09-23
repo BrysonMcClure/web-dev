@@ -20,27 +20,27 @@ const ExploreComponent = () => {
                           
                   </div>
                   <div className="col-1">
-                      <a href="explore-settings.html"><i className ="fas fa-cog fa-2x"></i></a>
+                      <a href="#"><i className ="fas fa-cog fa-2x"></i></a>
                   </div>    
                        
            </div>
       {/*<!-- Navigation Tabs -->*/}
            <ul className="nav mb-2 nav-tabs">
                 <li className="nav-item">
-                    <a className="nav-link active" href="for-you.html">For you</a>
+                    <a className="nav-link active" href="#">For you</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="trending.html">Trending</a>
+                    <a className="nav-link" href="#">Trending</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="news.html">News</a>
+                    <a className="nav-link" href="#">News</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="sports.html">Sports</a>
+                    <a className="nav-link" href="#">Sports</a>
                 </li>
       {/*<!-- This needs to disappear in the smallest configuration -->*/}
                 <li className="nav-item">
-                    <a className="nav-link d-sm-none d-md-block" href="entertainment.html">Entertainment</a>
+                    <a className="nav-link d-sm-none d-md-block" href="#">Entertainment</a>
                 </li>         
            </ul>
       {/*<!-- image with overlaid text -->*/}
