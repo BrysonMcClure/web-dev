@@ -17,7 +17,7 @@ const WhatsHappening = () => {
       <div className="pe-2">
           {/*Have to hard code in user image for now since we do not have user accounts that allow us to compute this dynamically, to fix later*/}
           <img src={require('../data/images/avatarIcons/ReactJS.png')}
-               className="ttr-tuit-avatar-logo rounded-circle" alt = "Poster's Avatar Image"/>
+               className="ttr-tuit-avatar-logo rounded-circle" alt = "Poster's Avatar"/>
       </div>
 
       <div className="w-100">

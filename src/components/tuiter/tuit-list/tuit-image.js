@@ -4,7 +4,7 @@ const TuitImage = ({tuit}) => {
     <div className="position-relative">
       {console.log(tuit.attachments.image)}
       <img src={require(`../data/images/${tuit.attachments.image}`)}
-           className="mt-2 w-100 ttr-rounded-15px" alt="Attached Image"/>
+           className="mt-2 w-100 ttr-rounded-15px" alt="Attached"/>
       {
         tuit.imageOverlay &&
         <span

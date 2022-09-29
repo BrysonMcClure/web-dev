@@ -20,7 +20,7 @@ const store = createStore(reducer);
 
 const Tuiter = () => {
   const location = useLocation();
-  {/*Calculates the last part of the active path, which should be the name of the active page to be used by NavigationSidebar for dynamic highlighting.*/}
+  //Calculates the last part of the active path, which should be the name of the active page to be used by NavigationSidebar for dynamic highlighting.
   const activePage = () => {
     const pathName = location.pathname;
     return pathName.substring(pathName.lastIndexOf("/"), location.pathname.length);
