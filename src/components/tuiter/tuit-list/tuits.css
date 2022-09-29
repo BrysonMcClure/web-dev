@@ -1,0 +1,32 @@
+.ttr-tuit-avatar-logo {
+    width: 48px;
+}
+
+.ttr-border-radius-20px {
+    border-radius: 20px;
+}
+.ttr-tuiter {
+    display: flex;
+    margin: auto;
+}
+{/*Credit for above goes to class sample repository mentioned as a usable source for styling examples in A7*/}
+
+{/*Below is based on examples from bootstrap website https://mdbootstrap.com/docs/b4/jquery/forms/textarea/*/}
+
+.ttr-textArea textarea.md-textarea {
+    background: transparent;
+    color: white;
+    height: 100px
+}
+
+{/*Not using this  but keeping around in case I decide later to make text area label change on active status to custom color.*/}
+.active-pink-textarea-2.md-form label.active {
+    color: lightslategray;
+}
+.active-pink-textarea-2.md-form label {
+    color: lightslategray;
+}
+.active-white-textarea.md-form textarea.md-textarea:focus:not([readonly])+label {
+    color: white;
+}
+

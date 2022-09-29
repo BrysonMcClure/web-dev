@@ -1,23 +1,10 @@
 import React from "react";
-import NavigationSidebar from "../NavigationSidebar";
 import ExploreComponent from "./ExploreComponent";
-import WhoToFollowList from "../WhoToFollowList";
-
+//I simplified this in A7 since tuiter/index.js now displays the sidebars by default, and so explore screen appearing as an outlet just creates extra stuff that appears overcorwded
+//Spacing of page is the same so now we can just simply return the explore component from here and acheive the same affect/ effect
 const ExploreScreen = () => {
   return(
-    <div className="row mt-2">
-      <div className="col-2 col-md-2 col-lg-1 col-xl-2">
-        <NavigationSidebar active="explore"/>
-      </div>
-
-      <div className="col-sm-10 col-md-10 col-lg-7 col-xl-6" style={{"position": "relative"}}>
-        <ExploreComponent/>
-      </div>
-
-      <div className="d-sm-none d-md-none d-lg-block col-lg-4 col-xl-4">
-        <WhoToFollowList/>
-      </div>
-    </div>
+    <ExploreComponent/>
   );
 
 };
