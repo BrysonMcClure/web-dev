@@ -17,11 +17,9 @@ function App() {
         <Routes>
           <Route path="/">
             <Route path="labs"
-                   element={<Labs/>}
-                   exact={true}/>
-            <Route path="hello"
-                   element={<HelloWorld/>}
-                   exact={true}/>
+                   element={<Labs/>}/>
+            <Route index="hello"
+                   element={<HelloWorld/>}/>
             <Route path="tuiter"
                    element={<Tuiter/>}>
               <Route index
