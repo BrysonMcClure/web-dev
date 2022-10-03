@@ -12,7 +12,11 @@ const TuitList = () => {
   //Server side communication and then output to recuder
   const dispatch = useDispatch();
   //Gets called automagically on file launch/render
-  useEffect(() => findAllTuits(dispatch), []);
+  useEffect(() => {
+    findAllTuits(dispatch)
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+  
   //mapping function of tuit list items
   return (
     <ul className="ttr-tuits list-group">
