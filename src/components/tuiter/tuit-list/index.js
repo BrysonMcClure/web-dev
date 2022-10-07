@@ -21,9 +21,11 @@ const TuitList = () => {
   return (
     <ul className="ttr-tuits list-group">
       {
-        tuits.map && tuits.map(tuit =>
-                                 <TuitListItem key={tuit._id}
-                                               tuit={tuit}/>)
+        tuits.map && tuits.map(tuit => {
+                   return <TuitListItem key={tuit._id}
+                                  tuit={tuit}/>;
+        })
+
       }
     </ul>
   );
